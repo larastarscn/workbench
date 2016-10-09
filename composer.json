@@ -1,0 +1,20 @@
+{
+    "name": "larastarscn/workbench",
+    "description": "Simple convenient workbench for laravel package creator.",
+    "keywords": ["laravel package", "laravel", "workbench", "larastarscn"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "dearmadman",
+            "email": "i@dearmadman.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larastarscn\\Workbench\\": "src/"
+        }
+    }
+}
