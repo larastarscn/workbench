@@ -47,7 +47,7 @@ Just it! For example, if you want make a package that the name is `larastarscn/t
 
     php artisan workbench larastarscn/test
 
-Then the workbench will ask you that 'What directories do you want?', if you don't want any sub-directory in your package,just type one of `null`，`no`, `n`, `false`.
+Then the workbench will ask you that "What directories do you want?", if you don't want any sub-directory in your package,just type value that one of `null`，`no`, `n`, `false`.
 
 Also, you can create multiple directories at once, just split those via comma symbol.
 
@@ -56,5 +56,5 @@ Even you can create the nested directories using "dot" notation:
     > What directories do you want?
     > config,resource.view,resource.lang,test
 
-
+Once the package structure is generated.Workbench will automatically map the namespace of the package within the root `composer.json` file for you.
 
